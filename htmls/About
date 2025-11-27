@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Про мене</title>
+</head>
+
+<body class="Services">
+    <div class="MainPanel">
+        <nav>
+            <a href="../index.html">
+                <div class="logo">arik.</div>
+            </a>
+            <ul>
+                <a href="../htmls/Services">
+                    <li>ПОСЛУГИ</li>
+                </a>
+                <a href="../htmls/error404">
+                    <li>РОБОТИ</li>
+                </a>
+                <a href="../htmls/About">
+                    <li>ПРО МЕНЕ</li>
+                </a>
+                <li>БЛОГ</li>
+                <li>СТОРІНКИ ▾</li>
+            </ul>
+            <button class="cta">НАПИСАТИ МЕНІ</button>
+        </nav>
+    </div>
+    <section class="SectionAbout">
+        <div class="About">
+            <div class="PersonBackground">
+                <img src="../Person.jpg" alt="">
+            </div>
+            <div class="Info">
+                <div class="TextHeader">
+                    <div>
+                        <h1>
+                            Arik <i>Andersson</i>
+                        </h1>
+                        <h3>
+                            Створюю преміальні веб-дизайн та розробку, щоб підсилити вашу онлайн-присутність.
+                        </h3>
+                    </div>
+                    <div>
+                        <div class="myServices">
+                            <button class="buttonArrow ArrowDown">
+                                <img src="../Icons/ArrowDown.svg" alt="">
+                            </button>
+                            ПРО МЕНЕ
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="InfoBlock">
+                        <div class="TextHeader">
+                            <h6>
+                                ARIK ANDERSSON
+                            </h6>
+                            <h1>
+                                Ваш партнер у втіленні бачення вашого сайту
+                            </h1>
+                        </div>
+                        <div class="mainText">
+                            Як фриланс-вебдизайнер і розробник, я поєдную творчість і технічну експертизу в кожному
+                            проєкті.
+                            Завдяки уважності до деталей та прагненню створювати зручні інтерфейси, я працюю з
+                            клієнтами,
+                            щоб зрозуміти їх потреби та втілити їхні ідеї. </br></br>Мій підхід ґрунтується на співпраці
+                            та відкритій комунікації. Я завжди пояснюю технічні моменти простою мовою. Чи то новий сайт
+                            з нуля, чи оптимізація наявного для пошукових систем — я прагну досконалості у формі й
+                            функції.
+                            Завдяки відданості якості та бажанню слідувати новим технологіям, я впевнений у здатності
+                            створювати результати, які перевищують очікування клієнтів.
+                        </div>
+                        <div class="ImmageWrapper">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="socials">
+                    <div class="InfoBlock FlexBetween">
+                        <div class="social">
+                            <div><img src="../SocialLogos/instagram.svg" alt=""></div>
+                            <div>INSTAGRAM</div>
+                        </div>
+                        <div class="arrow"><img src="../Icons/ArrowDown.svg" alt=""></div>
+                    </div>
+                    <div class="InfoBlock FlexBetween">
+                        <div class="social">
+                            <div><img src="../SocialLogos/Twitter.svg" alt=""></div>
+                            <div>TWITTER</div>
+                        </div>
+                        <div class="arrow"><img src="../Icons/ArrowDown.svg" alt=""></div>
+                    </div>
+                    <div class="InfoBlock FlexBetween">
+                        <div class="social">
+                            <div><img src="../SocialLogos/Facebook.svg" alt=""></div>
+                            <div>FACEBOOK</div>
+                        </div>
+                        <div class="arrow"><img src="../Icons/ArrowDown.svg" alt=""></div>
+                    </div>
+                    <div class="InfoBlock FlexBetween">
+                        <div class="social">
+                            <div><img src="../SocialLogos/Behance.svg" alt=""></div>
+                            <div>BEHANCE</div>
+                        </div>
+                        <div class="arrow"><img src="../Icons/ArrowDown.svg" alt=""></div>
+                    </div>
+                    <div class="InfoBlock FlexBetween">
+                        <div class="social">
+                            <div><img src="../SocialLogos/Dribbble.svg" alt=""></div>
+                            <div>DRIBBBLE</div>
+                        </div>
+                        <div class="arrow"><img src="../Icons/ArrowDown.svg" alt=""></div>
+                    </div>
+                    <div class="InfoBlock FlexBetween">
+                        <div class="social">
+                            <div><img src="../SocialLogos/Pinterest.svg" alt=""></div>
+                            <div>PINTEREST</div>
+                        </div>
+                        <div class="arrow"><img src="../Icons/ArrowDown.svg" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="InfoBlock awards">
+                    <h2>
+                        НАГОРОДИ
+                    </h2>
+                    <div class="awardsText">
+                        <div class="FlexBetween">
+                            <h3>
+                                Awwwards SOTD
+                            </h3>
+                            <h3 class="year">
+                                2023
+                            </h3>
+                        </div>
+                        <div class="horizontalLine"></div>
+                        <div class="FlexBetween">
+                            <h3>
+                                CSSDA SOTD
+                            </h3>
+                            <h3 class="year">
+                                2023
+                            </h3>
+                        </div>
+                        <div class="horizontalLine"></div>
+                        <div class="FlexBetween">
+                            <h3>
+                                Awwwards Website of the Month
+                            </h3>
+                            <h3 class="year">
+                                2023
+                            </h3>
+                        </div>
+                        <div class="horizontalLine"></div>
+                        <div class="FlexBetween">
+                            <h3>
+                                CSSDA SOTD
+                            </h3>
+                            <h3 class="year">
+                                2022
+                            </h3>
+                        </div>
+                        <div class="horizontalLine"></div>
+                        <div class="FlexBetween">
+                            <h3>
+                                Awwwards SOTD
+                            </h3>
+                            <h3 class="year">
+                                2022
+                            </h3>
+                        </div>
+                        <div class="horizontalLine"></div>
+                        <div class="FlexBetween">
+                            <h3>
+                                Awwwards Website of the Year
+                            </h3>
+                            <h3 class="year">
+                                2021
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="SectionCTA">
+        <div class="Banner" id="Banner">
+
+        </div>
+        <div class="MainContainer">
+            <h5 class="BeforText">Є ІДЕЯ ПРОЄКТУ?</h5>
+            <h1>Давайте створимо <span>сайт, що вражає</span></h1>
+            <h5>Преміальний вебдизайн, Webflow та SEO, щоб ваш бізнес виділявся.</h5>
+            <button class="Button">ЗВ'ЯЗАТИСЯ <img src="../Icons/ArrowBlack.svg" alt=""></button>
+        </div>
+    </section>
+
+    <section class="SectionFooter">
+        <div class="Columns">
+            <div class="Column">
+                <h3>
+                    <img src="../logos/arik..svg" alt="">
+                </h3>
+                <div class="SocialsRow">
+                    <a href="#"><button class="buttonArrow"><img src="../SocialLogos/instagram.svg" alt=""></button></a>
+                    <h5>
+                        INSTAGRAM
+                    </h5>
+                </div>
+                <div class="SocialsRow">
+                    <a href="#"><button class="buttonArrow"><img src="../SocialLogos/Twitter.svg" alt=""></button></a>
+                    <h5>
+                        TWITTER
+                    </h5>
+                </div>
+                <div class="SocialsRow">
+                    <a href="#"><button class="buttonArrow"><img src="../SocialLogos/Dribbble.svg" alt=""></button></a>
+                    <h5>
+                        DRIBBBLE
+                    </h5>
+                </div>
+                <div class="SocialsRow">
+                    <a href="#"><button class="buttonArrow"><img src="../SocialLogos/Behance.svg" alt=""></button></a>
+                    <h5>
+                        BEHANCE
+                    </h5>
+                </div>
+            </div>
+            <div class="Column">
+                <h3>
+                    Сторінки
+                </h3>
+                <h5>
+                    ГОЛОВНА
+                </h5>
+                <h5>
+                    ПОСЛУГИ
+                </h5>
+                <h5>
+                    ПРО МЕНЕ
+                </h5>
+                <h5>
+                    КОНТАКТИ
+                </h5>
+
+                <button class="Button">БІЛЬШЕ ШАБЛОНІВ <img src="../Icons/ArrowBlack.svg" alt=""></button>
+            </div>
+            <div class="Column">
+                <h3>
+                    CMS
+                </h3>
+                <h5>
+                    РОБОТИ
+                </h5>
+                <h5>
+                    ОКРЕМА РОБОТА
+                </h5>
+                <h5>
+                    БЛОГ
+                </h5>
+                <h5>
+                    СТАТТЯ
+                </h5>
+
+            </div>
+            <div class="Column">
+                <h3>
+                    Утиліти
+                </h3>
+                <h5>
+                    СТОРІНКА 404
+                </h5>
+                <h5>
+                    ЗАХИЩЕНО ПАРОЛЕМ
+                </h5>
+                <h5>
+                    СТАЙЛГАЙД
+                </h5>
+                <h5>
+                    ЛІЦЕНЗІЇ
+                </h5>
+                <h5>
+                    ЖУРНАЛ ЗМІН
+                </h5>
+            </div>
+        </div>
+        <div class="Last">
+            <h6>© 2022 Made by Pawel Gola. Powered by Framer.</h6>
+            <a href="#" class="buttonArrowLink">
+                НАГОРУ
+                <button class="buttonArrow">
+                    <img src="../Icons/ButtonImg.svg" alt="">
+                </button>
+            </a>
+        </div>
+    </section>
+</body>
+
+<script>
+    let BannerDiv = document.getElementById("Banner");
+    for (let i = 0; i < 27; i++) {
+        let text = document.createElement("h6");
+        if (i % 2 == 0) {
+            text.innerText = "+++";
+        }
+        else {
+            text.innerText = "Let’s talk";
+        }
+        BannerDiv.appendChild(text);
+    }
+</script>
+
+</html>

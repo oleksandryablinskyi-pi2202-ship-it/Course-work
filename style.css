@@ -1,0 +1,1172 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://fonts.googleapis.com/css?family=Gambetta&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chillax&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Satoshi{
+    font-weight: 300;
+    font-family: 'Satoshi';
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: black;
+    color: #e6d3b3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FlexBetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.MainPanel {
+    margin-top: 20px;
+    justify-content: center;
+    z-index: 10;
+    position: fixed;
+}
+
+nav {
+    padding: 12px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border: 1px solid #222;
+    background: rgba(240, 239, 239, 0.044);
+    backdrop-filter: blur(10px);
+}
+
+nav .logo {
+    font-size: 18px;
+    color: #cfc6b2;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 13px;
+    color: #cfc6b2;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #fff;
+}
+
+nav .cta {
+    margin-left: -20px;
+    padding: 6px 14px;
+    background: #e6d3b3;
+    color: #000;
+    font-weight: lighter;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.hero {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.PersonBackground{
+    position: absolute;
+    left: 50%;
+    top:-65px;
+    transform: translateX(-55%);
+    height: 100%;
+    width: auto;
+}
+
+.PersonBackground img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.PersonBackground::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #7c6a4e;
+    opacity: 0.6; 
+    mix-blend-mode: overlay; 
+    pointer-events: none;
+}
+
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin-top: 350px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 100px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.hero h1 span {
+    font-style: italic;
+    font-family: 'Gambetta';
+    font-weight: 300;
+}
+
+.hero p {
+    font-size: 17px;
+    font-family: 'Chillax';
+    color: #DAC5A799;
+    margin-top: 10px;
+}
+
+.SectionLogos {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.SectionLogos .logo {
+    display: flex;
+}
+
+.SectionLogos .logo img {
+    display: flex;
+    width: 80%;
+}
+
+.SectionServices {
+    padding-top: 70px;
+    display: flex;
+    gap: 30px;
+    width: 75%;
+}
+
+.SectionServices .Service {
+    background-color: #d4c0a310;
+    width: 30%;
+    height: 250px;
+    border-radius: 2px;
+    border: #dac5a717 solid;
+    border-width: 1px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.SectionServices .Service .text {
+    width: 80%;
+    height: 60%;
+    font-family: 'Satoshi', sans-serif;
+    color: #DAC5A7;
+}
+
+.SectionServices .Service .text h5 {
+    font-weight: 100;
+    color: #DAC5A799;
+}
+
+.SectionServices .Service .text h2 {
+    font-weight: 300;
+}
+
+.SectionServices .Service .text .mainText {
+    color: #dac5a776;
+    font-weight: 100;
+    font-family: 'Chillax';
+    line-height: 1.6;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    padding-top: 5px;
+}
+
+.buttonArrowLink {
+    display: flex;
+    height: 32px;
+    width: 80%;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size: 11px;
+    color: #DAC5A7;
+    align-items: center;
+    gap: 10px
+}
+
+.buttonArrow {
+    border-width: 1px;
+    border-color: #DAC5A726;
+    border-radius: 500px;
+    width: 32px;
+    height: 32px;
+    background-color: #DAC5A70D;
+}
+
+.SectionWork {
+    width: 75%;
+    padding-top: 50px;
+}
+
+.SectionWork .WorkHeader {
+    width: 100%;
+    display: flex;
+    gap: 64%;
+}
+
+.SectionWork .WorkHeader h1 {
+    font-weight: 200;
+}
+
+.SectionWork .buttonArrowLink {
+    width: 200px;
+}
+
+.buttonArrowLink img{
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+}
+
+
+
+.SectionWork .Works {
+    display: flex;
+    padding-top: 20px;
+    margin-left: -1%;
+    flex-wrap: wrap;
+}
+
+.SectionWork .Work {
+    display: flex;
+    width: 46%;
+    height: 350px;
+    margin: 1.1%;
+    justify-content: center;
+    background-color: #cfc6b2;
+}
+
+.SectionWork .WorkPannel {
+    justify-content: center;
+    display: flex;
+    gap: 73%;
+    align-items: center;
+    position: absolute;
+    margin-top: 295px;
+    width: 33%;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #FFFFFF26;
+    background: rgba(240, 239, 239, 0.044);
+    backdrop-filter: blur(10px);
+}
+
+.WorkBackground {
+    width: 100%;
+    height: 100%;
+}
+
+.SectionWork .WorkPannel .WorkPannelText {
+    font-weight: 100;
+    font-family: 'Satoshi', sans-serif;
+}
+
+
+.SectionProcess .ProcessHeader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Satoshi', sans-serif;
+    text-align: center;
+    align-items: center;
+    padding-top: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+    margin-bottom: 170px;
+}
+
+.SectionProcess .MiniText {
+    font-weight: 200;
+    color: #DAC5A7;
+    width: 35%;
+}
+
+.SectionProcess .ProcessHeader h1 {
+    font-size: 60px;
+    padding: 20px;
+    font-weight: 300;
+    line-height: 65px;
+}
+
+.SectionProcess .ProcessHeader span {
+    font-style: italic;
+    font-family: 'Gambetta';
+}
+
+.SectionProcess .ArrowDown {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SectionProcess {
+    position: relative;
+    max-width: 1000px;
+    padding: 100px 20px;
+    margin-top: 20px;
+}
+
+.SectionProcess .timeline-line {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 1650px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.SectionProcess .timeline-item {
+    position: relative;
+    width: 85%;
+    padding: 20px 70px;
+    box-sizing: border-box;
+}
+
+.SectionProcess .timeline-item.left {
+    left: -255px;
+}
+
+.SectionProcess .timeline-item.right {
+    left: 50%;
+}
+
+.SectionProcess .timeline-item .content {
+    background: #DAC5A70D;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    padding-left: 32px;
+    color: #DAC5A7;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.SectionProcess .timeline-item h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.SectionProcess .timeline-item p {
+    max-width: 550px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #DAC5A799;
+    font-family: 'Chillax';
+}
+
+.SectionProcess .timeline-item h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.SectionProcess .timeline-item ul {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 20px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+.SectionProcess .timeline-item ul li {
+    margin: 5px 0;
+}
+
+.SectionProcess .timeline-item .stepBlock {
+    position: absolute;
+    top: 100px;
+    right: -30px;
+    background: #000000;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.SectionProcess .timeline-item.right .stepBlock {
+    right: auto;
+    left: -35px;
+}
+
+.SectionProcess .timeline-item .step {
+    position: absolute;
+    background: #DAC5A70D;
+    top: 14px;
+    left: 15px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #DAC5A726;
+    border-radius: 50%;
+    padding: 6px 10px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.SectionProcess .timeline-item.right .step {
+    top: 13px;
+    left: 20%;
+}
+
+.SectionProcess .Time {
+    align-content: center;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 85%;
+    width: 65px;
+    height: 23px;
+    background-color: #DAC5A70D;
+    border: 1px solid #DAC5A726;
+    border-radius: 2px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.SectionTestimonials {
+    width: 100%;
+}
+
+.SectionTestimonials .TestimonialsHeader {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.SectionTestimonials .TestimonialsHeader h1 {
+    font-weight: 300;
+    font-size: 70px;
+    width: 400px;
+}
+
+.SectionTestimonials .TestimonialsHeader span {
+    font-family: 'Gambetta';
+    font-style: italic;
+}
+
+.SectionTestimonials .TestimonialsHeader p {
+    width: 500px;
+    font-family: 'Chillax';
+    font-weight: 300;
+    color: #DAC5A799;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+.testimonial {
+    background: #111;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    padding: 40px;
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.testimonial:nth-child(1) {
+    margin-bottom: 25px;
+}
+
+.testimonial:nth-child(3) {
+    margin-top: -23px;
+    margin-bottom: 33px;
+}
+
+.testimonial:nth-child(5) {
+    margin-top: -30px;
+    margin-bottom: 62px;
+}
+
+.testimonial .logo {
+    color: #aaa;
+    size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.testimonial .logo img {
+    height: 25px;
+}
+
+.testimonial h3 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #f5f5f5;
+    line-height: 1.4;
+    font-family: 'Satoshi';
+    color: #DAC5A7;
+}
+
+.testimonial p {
+    font-family: 'Chillax';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #DAC5A799;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.author img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author h3 {
+    font-size: 15px;
+    color: #DAC5A7;
+    margin-bottom: -20px;
+}
+
+.author span {
+    font-size: 13px;
+    color: #DAC5A799;
+}
+
+.SectionAbout {
+    background: #000;
+    width: 100%;
+    color: #d9c5a0;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.About-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.About-content img {
+    left: 10px;
+    width: 1400px;
+    position: absolute;
+}
+
+.About-name {
+    font-size:100px;
+    font-family: "Satoshi";
+    color: #e6d6b0;
+    position: absolute;
+    top: 160px;
+    font-weight: 300;
+    white-space: nowrap;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.About-name.left {
+    left: -9%;
+}
+
+.About-name.right {
+    right: -3.5%;
+}
+
+.About-text {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+    gap: 0px;
+    padding: 0 24%;
+}
+
+.About-text .subtitle {
+    position: relative;
+    font-size: 30px;
+    color: #e6d6b0;
+    width: 1000px;
+    margin-top: -120px;
+    text-align: left;
+    font-family: 'Satoshi';
+    font-weight: 300;
+    z-index: 5;
+}
+
+.About-text .description {
+    position: relative;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 145px;
+    z-index: 5;
+    line-height: 1.6;
+    color: #DAC5A799;
+    font-family: 'Chillax';
+    letter-spacing: 0.5px;
+}
+
+.socials {
+    position: relative;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+.socials a{
+    margin: 0;
+    text-decoration: none;
+}
+
+.socials a .buttonArrow{
+    width: 40px;
+    margin: 3px;
+    height: 40px;
+}
+
+.SectionCTA{
+    width: 100%;
+}
+.Banner{
+    display: flex;
+    gap: 27px;
+    background: #DAC5A70D;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #dac5a727;
+    border-bottom:  1px solid #dac5a727;
+}
+
+.Banner h6{
+    color: #dac5a7;
+    font-weight: 300;
+    font-family: 'Satoshi', sans-serif;
+    text-transform: uppercase;
+    font-size: 9px;
+}
+
+.SectionCTA .MainContainer{
+    width: 100%;
+    height: 550px;
+    background-color: #4d494218;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SectionCTA .MainContainer .BeforText{
+    font-size: 9px;
+    font-family: 'Satoshi';
+    color: #dac5a7c3;
+    letter-spacing: 1px;
+}
+
+.SectionCTA .MainContainer h5{
+    font-weight: 300;
+    color: #d3bea266;
+    width: 300px;
+    text-align: center;
+    font-family: 'Chillax';
+}
+.SectionCTA .MainContainer h1{
+    width: 500px;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Satoshi';
+    line-height: 1.1;
+}
+.SectionCTA .MainContainer span{
+    font-family: 'Gambetta';
+    font-style: italic;
+}
+
+.Button{
+    width: 140px;
+    height: 35px;
+    margin-top: 30px;
+    background-color: #DAC5A7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 300;
+    font-family: 'Satoshi';
+}
+
+.SectionCTA .Button img{
+    width: 9px;
+}
+
+.SectionFooter{
+    width: 100%;
+    background-color: #4d494218;
+    height: 500px;
+}
+
+.SectionFooter .Columns{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin-left: -50px;
+}
+
+.SectionFooter .Columns h3{
+    margin-bottom: 33px;
+    color: #dac5a780;
+    font-weight: 300;
+}
+
+.SectionFooter .Columns .SocialsRow{        
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 9px;
+}
+
+.SectionFooter .Columns .SocialsRow h5{
+    margin-top: 0;
+}
+
+.SectionFooter .Columns h5{
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #dac5a75e;
+    font-family: 'Satoshi';
+    margin-top: 7px;
+}
+
+.SectionFooter .Column{
+    line-height: 2;
+}
+
+.Column .Button{
+    margin-top: 20px;
+    width: 160px;
+}
+
+.Columns .Column:nth-child(2){
+    position: relative;
+    right: -50px;
+}
+
+.Last{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.Last h6{
+    color: #dac5a75e;
+    font-weight: 300;
+    width: 1800px;
+}
+
+.Last a{
+    margin-left: 1000px;
+}
+
+.Last img{
+    margin-left: 1px;
+    rotate:-45deg;
+}
+
+.Services .hero-content{
+    margin-top: 150px;
+    max-width: 600px;
+}
+
+.Services .hero{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.myServices{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.Services .hero .Laptop{
+    width: 86%;
+    margin-top: 35px;
+}
+
+.SectionStats{
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    margin-top: 73px;
+}
+
+.SectionStats .Stat{
+    text-align: center;
+}
+
+.SectionStats h6{
+    color: #DAC5A799;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.SectionStats h1{
+    color: #DAC5A7;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.SectionWebDesign{
+    padding-top: 113px;
+}
+
+.InfoBlock{
+    margin: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #4d494218;
+    width: 1000px;
+    height: 1310px;
+    padding: 50px;
+}
+
+.InfoBlock .TextHeader h6{
+    font-weight: 400;
+    color: #DAC5A7;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 13px;
+}
+
+.InfoBlock .TextHeader h1{
+    margin-top: 7px;
+    font-weight: 300;
+    color: #DAC5A7;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 52px;
+    width: 97%;
+}
+
+.InfoBlock .ImmageWrapper{
+    width: 900px;
+    height: 677px;
+    background: url("WorksImg/Image1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 30px;
+}
+
+.SectionDevelopment .InfoBlock .ImmageWrapper{
+    background: url("WorksImg/Image4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SectionDevelopment .InfoBlock{
+    height: 1350px;
+}
+
+.SectionSEO .InfoBlock .ImmageWrapper{
+    background: url("WorksImg/Image3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SectionSEO .InfoBlock{
+    height: 1350px;
+}
+
+.InfoBlock .ImmageWrapper::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("OtherPhoto/noise.png") ;
+    opacity: 0.1;
+    mix-blend-mode: overlay; 
+    pointer-events: none;
+}
+
+.InfoBlock .DesignText{
+    margin-top: 46px;
+    flex-direction: row;
+    width: 900px;
+}
+
+.InfoBlock .DesignText .leftText{
+    font-weight: 400;
+    font-size: 13px;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.InfoBlock .DesignText .rightText{
+    font-weight: 400;
+    font-size: 16px;
+    width: 670px;
+    font-family: 'Chillax';
+}
+
+.horizontalLine{
+    width: 900px;
+    border: 1px solid #DAC5A726;
+}
+
+.InfoBlock .horizontalLine{
+    margin-top: 52px;
+}
+
+.SectionSEO{
+    padding-bottom: 150px;
+}
+
+.SectionAbout{
+    padding: 130px;
+}
+.SectionAbout .About{
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+}
+
+.SectionAbout .PersonBackground{
+    width: 370px;
+    height: 395px;
+    overflow: hidden;
+    position: relative;
+    transform: none;
+    left: 0;
+    top: 0;
+}
+
+.SectionAbout .PersonBackground img{
+    margin-left: -260px;
+    margin-top: -110px;
+    width: 740px;
+    height: 790px;
+    object-fit:cover;
+    object-position: center;
+}
+
+.SectionAbout .Info{
+    width: 750px;
+}
+
+.SectionAbout .Info .TextHeader{
+    text-align: left;
+    margin-top: 45px;
+}
+
+.SectionAbout .Info .TextHeader h1 i{
+    font-family: 'Gambetta';
+}
+
+.SectionAbout .Info .TextHeader h1{
+    font-size: 100px;
+    line-height: 1;
+    width: 600px;
+    font-weight: 300;
+    font-family: 'Satoshi', sans-serif;
+
+}
+
+.SectionAbout .Info .TextHeader h3{
+    margin-top: 12px;
+    font-family: 'Chillax';
+    width: 500px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 21.5px;
+    color: #DAC5A799;
+}
+
+.SectionAbout .Info .myServices{
+    margin-top: 55px;
+}
+
+.SectionAbout .Info .InfoBlock{
+    padding: 0 42px;
+    width:800px ;
+    margin: 0;
+    margin-top: 120px;
+    height: 1050px;
+}
+
+.SectionAbout .Info .InfoBlock h6{
+    color: #DAC5A799;
+}
+
+.SectionAbout .Info .InfoBlock h1{
+    width: 100%;
+    font-size: 49px;
+}
+
+.SectionAbout .Info .InfoBlock .ImmageWrapper{
+    background: url("OtherPhoto/man.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.SectionAbout .Info .InfoBlock .ImmageWrapper::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #7e653b;
+    opacity: 0.6; 
+    mix-blend-mode: overlay; 
+    pointer-events: none;
+}
+
+.SectionAbout .Info .InfoBlock .mainText{
+    margin-top: 16px;
+    text-align: left;
+    font-family: 'Chillax';
+    font-size: 19.6px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.SectionAbout .Info .socials{
+    margin: 0;
+    width: 800px;
+    margin-top: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.SectionAbout .Info .socials .InfoBlock{
+    margin: 0;
+    width: 256px;
+    height: 65px;
+    padding: 25px;
+    align-items: center;
+}
+
+.SectionAbout .Info .socials .InfoBlock .social img{
+    width:25px;
+}
+
+.SectionAbout .Info .socials .InfoBlock .arrow img{
+    rotate:-135deg;
+}
+
+.SectionAbout .Info .socials .InfoBlock .social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.SectionAbout .Info .awards{
+    margin-top: 20px;
+    height: 630px;
+    text-align: left;
+    padding: 60px;
+}
+
+.SectionAbout .Info .awards .awardsText{
+    margin-top: 30px;
+}
+
+.SectionAbout .Info .awards h2{
+    font-family: 'Satoshi';
+    font-weight: 400;
+    font-size: 17px;
+    color: #DAC5A799;
+}
+
+.SectionAbout .Info .awards .horizontalLine{
+    margin-top: 25px;
+    width: 680px;
+}
+
+.SectionAbout .Info .awards .FlexBetween{
+    margin-top: 27px;
+    align-items: center;
+}
+
+.SectionAbout .Info .awards .FlexBetween h3{
+    font-family: 'Satoshi';
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.SectionAbout .Info .awards .FlexBetween .year{
+    font-size: 17px;
+}
+
+.error .InfoBlock{
+    margin-top: 100px;
+    height: 570px;
+    width: 500px;
+    padding: 0;
+}
+
+.error .Button{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+}

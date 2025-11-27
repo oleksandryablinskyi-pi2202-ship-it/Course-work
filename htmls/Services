@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <title>Послуги</title>
+</head>
+
+<body class="Services">
+  <div class="MainPanel">
+    <nav>
+      <a href="../index.html">
+        <div class="logo">arik.</div>
+      </a>
+      <ul>
+        <a href="../htmls/Services">
+          <li>ПОСЛУГИ</li>
+        </a>
+        <a href="../htmls/error404">
+          <li>РОБОТИ</li>
+        </a>
+        <a href="../htmls/About">
+          <li>ПРО МЕНЕ</li>
+        </a>
+        <li>БЛОГ</li>
+        <li>СТОРІНКИ ▾</li>
+      </ul>
+      <button class="cta">НАПИСАТИ МЕНІ</button>
+    </nav>
+  </div>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Вебдизайнер<br> <span>та Framer</span></h1>
+      <p>Преміальний вебдизайн, розробка та SEO,<br>щоб ваш бізнес виділявся.</p>
+    </div>
+    <div class="myServices">
+      <button class="buttonArrow ArrowDown">
+        <img src="../Icons/ArrowDown.svg" alt="">
+      </button>
+      МОЇ ПОСЛУГИ
+    </div>
+    <img src="../OtherPhoto/services.png" alt="" class="Laptop">
+  </section>
+
+  <section class="SectionStats">
+    <div class="Stat">
+      <h6>Клієнти</h6>
+      <h1>150+</h1>
+    </div>
+    <div class="Stat">
+      <h6>Проєкти</h6>
+      <h1>300+</h1>
+    </div>
+    <div class="Stat">
+      <h6>Щасливі клієнти</h6>
+      <h1>100%</h1>
+    </div>
+    <div class="Stat">
+      <h6>Підписники</h6>
+      <h1>100K</h1>
+    </div>
+  </section>
+
+  <section class="SectionWebDesign">
+    <div class="WebDesign InfoBlock">
+      <div class="TextHeader">
+        <h6>ВЕБДИЗАЙН</h6>
+        <h1>Перетворюю ваші ідеї на реальність</h1>
+      </div>
+      <div class="ImmageWrapper"></div>
+
+      <div>
+        <div class="DesignText FlexBetween">
+          <div class="leftText">
+            КОНЦЕПТ
+          </div>
+          <div class="rightText">
+            Я приділяю час вивченню ваших бізнес-потреб та аудиторії, щоб створити унікальну концепцію вашого сайту.
+            Створюю вайрфрейми, які стануть основою дизайну та функціональності.
+          </div>
+        </div>
+        <div class="horizontalLine"></div>
+
+        <div class="DesignText FlexBetween">
+          <div class="leftText">
+            UX / UI ДИЗАЙН
+          </div>
+          <div class="rightText">
+            Я створюю зручний та привабливий інтерфейс, який залучає вашу аудиторію. Ваш сайт буде відповідати цілям та
+            стилю вашого бренду, забезпечуючи комфортну взаємодію.
+          </div>
+        </div>
+        <div class="horizontalLine"></div>
+
+        <div class="DesignText FlexBetween">
+          <div class="leftText">
+            ПРОТОТИП
+          </div>
+          <div class="rightText">
+            Завдяки інтерактивному прототипу ви зможете протестувати функціональність сайту ще до запуску. Це дозволяє
+            оптимізувати дизайн та UX під потреби користувачів.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="SectionDevelopment">
+    <div class="WebDesign InfoBlock">
+      <div class="TextHeader">
+        <h6>РОЗРОБКА</h6>
+        <h1>Створення високопродуктивних сайтів та вебзастосунків</h1>
+      </div>
+      <div class="ImmageWrapper"></div>
+
+      <div>
+        <div class="DesignText FlexBetween">
+          <div class="leftText">FRAMER</div>
+          <div class="rightText">
+            Я спеціалізуюся на створенні вебзастосунків у Framer — від кастомної анімації до складних інтеракцій,
+            оживляючи ваш продукт.
+          </div>
+        </div>
+        <div class="horizontalLine"></div>
+
+        <div class="DesignText FlexBetween">
+          <div class="leftText">CMS ІНТЕГРАЦІЯ</div>
+          <div class="rightText">
+            Інтегрую CMS, щоб ви могли легко керувати контентом без ручних оновлень — швидко та зручно.
+          </div>
+        </div>
+        <div class="horizontalLine"></div>
+
+        <div class="DesignText FlexBetween">
+          <div class="leftText">ДИЗАЙН-СИСТЕМА</div>
+          <div class="rightText">
+            Я використовую модульний підхід і створюю дизайн-систему, що забезпечує цілісність та професійний вигляд
+            усіх сторінок.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="SectionSEO">
+    <div class="InfoBlock">
+      <div class="TextHeader">
+        <h6>SEO & КОНТЕНТ</h6>
+        <h1>Підсилюю органічний трафік вашого сайту</h1>
+      </div>
+      <div class="ImmageWrapper"></div>
+
+      <div>
+        <div class="DesignText FlexBetween">
+          <div class="leftText">ДОСЛІДЖЕННЯ</div>
+          <div class="rightText">
+            Проводжу детальне дослідження, щоб підібрати найкращі ключові слова та стратегії для покращення позицій
+            вашого сайту.
+          </div>
+        </div>
+        <div class="horizontalLine"></div>
+
+        <div class="DesignText FlexBetween">
+          <div class="leftText">SEO-РАНЖУВАННЯ</div>
+          <div class="rightText">
+            Мої SEO-послуги допоможуть підвищити видимість вашого сайту та збільшити органічний трафік, що приводить
+            більше клієнтів.
+          </div>
+        </div>
+        <div class="horizontalLine"></div>
+
+        <div class="DesignText FlexBetween">
+          <div class="leftText">SEO-ПІДТРИМКА</div>
+          <div class="rightText">
+            Забезпечую постійну підтримку, щоб ваш сайт залишався оптимізованим відповідно до сучасних алгоритмів
+            пошукових систем.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="SectionCTA">
+    <div class="Banner" id="Banner"></div>
+
+    <div class="MainContainer">
+      <h5 class="BeforText">Є ІДЕЯ ПРОЄКТУ?</h5>
+      <h1>Давайте зробимо ваш <span>сайт вражаючим</span></h1>
+      <h5>Преміальний дизайн, Webflow та SEO для розвитку вашого бізнесу.</h5>
+      <button class="Button">ЗВʼЯЗАТИСЯ <img src="../Icons/ArrowBlack.svg" alt=""></button>
+    </div>
+  </section>
+
+  <section class="SectionFooter">
+    <div class="Columns">
+      <div class="Column">
+        <h3>
+          <img src="../logos/arik..svg" alt="">
+        </h3>
+        <div class="SocialsRow">
+          <a href="#"><button class="buttonArrow"><img src="../SocialLogos/instagram.svg" alt=""></button></a>
+          <h5>INSTAGRAM</h5>
+        </div>
+        <div class="SocialsRow">
+          <a href="#"><button class="buttonArrow"><img src="../SocialLogos/Twitter.svg" alt=""></button></a>
+          <h5>TWITTER</h5>
+        </div>
+        <div class="SocialsRow">
+          <a href="#"><button class="buttonArrow"><img src="../SocialLogos/Dribbble.svg" alt=""></button></a>
+          <h5>DRIBBBLE</h5>
+        </div>
+        <div class="SocialsRow">
+          <a href="#"><button class="buttonArrow"><img src="../SocialLogos/Behance.svg" alt=""></button></a>
+          <h5>BEHANCE</h5>
+        </div>
+      </div>
+
+      <div class="Column">
+        <h3>Сторінки</h3>
+        <h5>ГОЛОВНА</h5>
+        <h5>ПОСЛУГИ</h5>
+        <h5>ПРО МЕНЕ</h5>
+        <h5>КОНТАКТИ</h5>
+
+        <button class="Button">БІЛЬШЕ ШАБЛОНІВ <img src="../Icons/ArrowBlack.svg" alt=""></button>
+      </div>
+
+      <div class="Column">
+        <h3>CMS</h3>
+        <h5>РОБОТИ</h5>
+        <h5>ОДНА РОБОТА</h5>
+        <h5>БЛОГ</h5>
+        <h5>СТАТТЯ</h5>
+      </div>
+
+      <div class="Column">
+        <h3>Утиліти</h3>
+        <h5>СТОРІНКА 404</h5>
+        <h5>ЗАХИСТ ПАРОЛЕМ</h5>
+        <h5>СТАЙЛГАЙД</h5>
+        <h5>ЛІЦЕНЗІЇ</h5>
+        <h5>ЖУРНАЛ ЗМІН</h5>
+      </div>
+    </div>
+
+    <div class="Last">
+      <h6>© 2022 Створено Pawel Gola. Працює на Framer.</h6>
+      <a href="#" class="buttonArrowLink">
+        НАГОРУ
+        <button class="buttonArrow">
+          <img src="../Icons/ButtonImg.svg" alt="">
+        </button>
+      </a>
+    </div>
+  </section>
+</body>
+
+<script>
+  let BannerDiv = document.getElementById("Banner");
+  for (let i = 0; i < 27; i++) {
+    let text = document.createElement("h6");
+    if (i % 2 == 0) {
+      text.innerText = "+++";
+    }
+    else {
+      text.innerText = "Let’s talk";
+    }
+    BannerDiv.appendChild(text);
+  }
+</script>
+
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>error</title>
+</head>
+
+<body>
+    <div class="MainPanel">
+        <nav>
+            <a href="../index.html"><div class="logo">arik.</div></a>
+            <ul>
+                <a href="../htmls/Services"><li>SERVICES</li></a>
+                <a href="../htmls/error404"><li>WORK</li></a>
+                <a href="../htmls/About"><li>ABOUT</li></a>
+                <li>BLOG</li>
+                <li>PAGES ▾</li>
+            </ul>
+            <button class="cta">LET'S TALK</button>
+        </nav>
+    </div>
+    
+    <section class="error">
+        <div class="InfoBlock">
+            <img src="../OtherPhoto/error.png" alt="">
+            <a href="../index.html"><button class="Button">Вернутись на головну</button></a>
+        </div>
+    </section>
+
+    <section class="SectionCTA">
+        <div class="Banner" id="Banner">
+
+        </div>
+        <div class="MainContainer">
+            <h5 class="BeforText">PROJECT IN MIND?</h5>
+            <h1>Let’s make your <span>Website shine</span></h1>
+            <h5>Premium web design, webflow, and SEO services to help your business stand out.</h5>
+            <button class="Button">GET IN TOUCH <img src="../Icons/ArrowBlack.svg" alt=""></button>
+        </div>
+    </section>
+
+    <section class="SectionFooter">
+        <div class="Columns">
+            <div class="Column">
+                <h3>
+                    <img src="../logos/arik..svg" alt="">
+                </h3>
+                <div class="SocialsRow">
+                    <a href="#"><button class="buttonArrow"><img src="../SocialLogos/instagram.svg" alt=""></button></a>
+                    <h5>
+                        INSTAGRAM
+                    </h5>
+                </div>
+                <div class="SocialsRow">
+                    <a href="#"><button class="buttonArrow"><img src="../SocialLogos/Twitter.svg" alt=""></button></a>
+                    <h5>
+                        TWITTER
+                    </h5>
+                </div>
+                <div class="SocialsRow">
+                    <a href="#"><button class="buttonArrow"><img src="../SocialLogos/Dribbble.svg" alt=""></button></a>
+                    <h5>
+                        DRIBBBLE
+                    </h5>
+                </div>
+                <div class="SocialsRow">
+                    <a href="#"><button class="buttonArrow"><img src="../SocialLogos/Behance.svg" alt=""></button></a>
+                    <h5>
+                        BEHANCE
+                    </h5>
+                </div>
+            </div>
+            <div class="Column">
+                <h3>
+                    Pages
+                </h3>
+                <h5>
+                    HOME
+                </h5>
+                <h5>
+                    SERVICES
+                </h5>
+                <h5>
+                    ABOUT
+                </h5>
+                <h5>
+                    CONTACT
+                </h5>
+
+                <button class="Button">MORE TEMPLATES <img src="../Icons/ArrowBlack.svg" alt=""></button>
+            </div>
+            <div class="Column">
+                <h3>
+                    CMS
+                </h3>
+                <h5>
+                    WORK
+                </h5>
+                <h5>
+                    WORK SINGLE
+                </h5>
+                <h5>
+                    BLOG
+                </h5>
+                <h5>
+                    BLOG POST
+                </h5>
+
+            </div>
+            <div class="Column">
+                <h3>
+                    Utility Pages
+                </h3>
+                <h5>
+                    404 ERROR PAGE
+                </h5>
+                <h5>
+                    PASSWORD PROTECTED
+                </h5>
+                <h5>
+                    STYLEGUIDE
+                </h5>
+                <h5>
+                    LICENSING
+                </h5>
+                <h5>
+                    CHANGELOG
+                </h5>
+            </div>
+        </div>
+        <div class="Last">
+            <h6>© 2022 Made by Pawel Gola. Powered by Framer..</h6>
+            <a href="#" class="buttonArrowLink Satoshi">
+                TO TOP
+                <button class="buttonArrow">
+                    <img src="../Icons/ButtonImg.svg" alt="">
+                </button>
+            </a>
+        </div>
+    </section>
+</body>
+
+<script>
+    let BannerDiv = document.getElementById("Banner");
+    for (let i = 0; i < 27; i++) {
+        let text = document.createElement("h6");
+        if (i % 2 == 0) {
+            text.innerText = "+++";
+        }
+        else {
+            text.innerText = "Let\’s talk";
+        }
+        BannerDiv.appendChild(text);
+    }
+</script>
+
+</html>

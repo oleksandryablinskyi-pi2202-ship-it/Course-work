@@ -64,6 +64,11 @@ nav ul li {
     cursor: pointer;
 }
 
+nav a {
+    color: #cfc6b2;
+    cursor: pointer;
+}
+
 nav ul li:hover {
     color: #fff;
 }
@@ -529,7 +534,6 @@ nav .cta {
 
 .testimonial .logo {
     color: #aaa;
-    size: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }

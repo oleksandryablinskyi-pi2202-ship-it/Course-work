@@ -10,20 +10,18 @@
 
 <body class="Services">
     <div class="MainPanel">
-    <nav>
-      <a href="../index.html">
-        <div class="logo">arik.</div>
-      </a>
-      <ul>
-        <a href="Services.html"><li>ПОСЛУГИ</li></a>
-        <a href="error404.html"><li>РОБОТИ</li></a>
-        <a href="About.html"><li>ПРО МЕНЕ</li></a>
-        <li>БЛОГ</li>
-        <li>СТОРІНКИ ▾</li>
-      </ul>
-      <button class="cta">ДАВАЙТЕ СПІЛКУВАТИСЬ</button>
-    </nav>
-  </div>
+        <nav>
+            <div class="logo"><a href="../index.html">arik.</a></div>
+            <ul>
+                <li><a href="Services.html">ПОСЛУГИ</a></li>
+                <li><a href="error404.html">РОБОТИ</a></li>
+                <li><a href="About.html">ПРО МЕНЕ</a></li>
+                <li>БЛОГ</li>
+                <li>СТОРІНКИ ▾</li>
+            </ul>
+            <button class="cta">ДАВАЙТЕ СПІЛКУВАТИСЬ</button>
+        </nav>
+    </div>
     <section class="SectionAbout">
         <div class="About">
             <div class="PersonBackground">
@@ -296,19 +294,6 @@
         </div>
     </section>
 </body>
-
-<script>
-    let BannerDiv = document.getElementById("Banner");
-    for (let i = 0; i < 27; i++) {
-        let text = document.createElement("h6");
-        if (i % 2 == 0) {
-            text.innerText = "+++";
-        }
-        else {
-            text.innerText = "Let’s talk";
-        }
-        BannerDiv.appendChild(text);
-    }
+<script src="../js.js">
 </script>
-
 </html>
